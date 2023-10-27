@@ -1,0 +1,7 @@
+{
+  "name": "devdacticTwitter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

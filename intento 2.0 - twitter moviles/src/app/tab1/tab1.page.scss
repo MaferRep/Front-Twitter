@@ -1,0 +1,14 @@
+.ion-title-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Para que el título tome todo el espacio disponible */
+  }
+
+  .custom-active-tab {
+    background-color: #007BFF; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    pointer-events: none; /* Desactiva los eventos de clic */
+    box-shadow: none; /* Elimina la sombra al hacer clic */
+  }

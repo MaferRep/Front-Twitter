@@ -1,0 +1,20 @@
+<div class="tweet-container">
+  <div class="user-info">
+    {{ userName }}
+    <span class="user-handle">{{ userHandle }}</span>
+  </div>
+  <div class="tweet-content">
+    {{ tweetContent }}
+  </div>
+  <div class="tweet-time">
+    {{ tweetTime }}
+  </div>
+  <div class="interactions">
+    <a (click)="likeClicked()">
+      <ion-icon name="heart-outline"></ion-icon> Likes: {{ likes }}
+    </a>
+    <a (click)="commentClicked()">
+      <ion-icon name="chatbox-outline"></ion-icon> Comentarios: {{ comments }}
+    </a>
+  </div>
+</div>
